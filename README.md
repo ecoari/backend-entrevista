@@ -1,6 +1,6 @@
-# Desafio Tecnico Backend - NestJS (Starter)
+# Desafio Técnico Backend - NestJS
 
-Este repositorio e um ponto de partida para entrevista tecnica backend.
+Este repositório é um ponto de partida para entrevista técnica backend.
 
 ## Objetivo
 
@@ -13,42 +13,41 @@ Resposta esperada:
 ```json
 [
   "Salvador",
-  "Santo Antonio de Jesus",
-  "Simoes Filho"
+  "Santo Antônio de Jesus",
+  "Simões Filho"
 ]
 ```
 
-## Regras de Negocio
+## Regras de Negócio
 
 - Filtrar cidades cujo nome contenha o texto pesquisado.
-- Ignorar maiusculas/minusculas.
-- Ignorar acentos (`Sao` ~= `sao`).
+- Ignorar maiúsculas/minúsculas.
+- Ignorar acentos (`São` ~= `sao`).
 - Respeitar limite de resultados:
   - default: 10
-  - maximo recomendado: 50
-- Retornar em ordem alfabetica.
-- Tratar entradas invalidas (ex.: busca vazia).
+  - máximo recomendado: 50
+- Retornar em ordem alfabética.
+- Tratar entradas inválidas (ex.: busca vazia).
 
-## O que esta pronto
+## O que está pronto
 
 - Estrutura do projeto NestJS.
-- Modulo, controller e DTO de entrada.
+- Módulo, controller e DTO de entrada.
 - Lista base de cidades em `src/cities/cities.constant.ts`.
-- `CitiesService` com metodo em modo TODO para implementacao do candidato.
 
 ## Onde implementar
 
 - `src/cities/cities.service.ts`
 
-## Avaliacao
+## Avaliação
 
-- Qualidade e legibilidade do codigo
-- Organizacao e separacao de responsabilidades
-- Performance (evitar retrabalho por requisicao)
-- Tratamento de erro e validacoes
-- Clareza de raciocinio e trade-offs
+- Qualidade e legibilidade do código
+- Organização e separação de responsabilidades
+- Performance (evitar retrabalho por requisição)
+- Tratamento de erro e validações
+- Clareza de raciocínio e trade-offs
 
-Nao e necessario concluir 100% para uma boa avaliacao.
+Não é necessário concluir 100% para uma boa avaliação.
 
 ## Como rodar
 
@@ -61,9 +60,9 @@ Servidor em `http://localhost:3000`.
 
 ## Testes
 
-O starter nao entrega testes de solucao por padrao.
+O starter não entrega testes de solução por padrão.
 
-Voce pode adicionar:
+Você pode adicionar:
 
-- testes unitarios de service
+- testes unitários de service
 - testes e2e de endpoint
